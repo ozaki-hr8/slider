@@ -1,6 +1,8 @@
 # slider
 'slick' slider plug-in for site information (Web Design)
 
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
 【jQueryライブラリ「slick」を使ったレスポンシブなスライダーの導入方法】
 
 セール情報などのお知らせを表示するために、自社サイトにスライダーを表示させたいという方は多いかと思います。
@@ -142,3 +144,73 @@ $('.next').slick({
 <div><img src="./images/sample5.png"></div>
 <div><img src="./images/sample6.png"></div>
 </section>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).on('ready', function() {
+    $(".regular").slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3
+    });
+    $(".vertical-center").slick({
+      dots: true,
+      vertical: true,
+      centerMode: true,
+    });
+    $('.autoplay').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+    });
+    $(".center").slick({
+      dots: true,
+      infinite: true,
+      centerMode: true,
+      slidesToShow: 5,
+      slidesToScroll: 3
+    });
+    $('.one-time').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true
+    });
+    $(".lazy").slick({
+      lazyLoad: 'ondemand',
+      infinite: true
+    });
+    $('.fade').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear'
+    });
+    $('.slider-for').slick({
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     arrows: false,
+     fade: true,
+     asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      asNavFor: '.slider-for',
+      dots: true,
+      centerMode: true,
+      focusOnSelect: true
+    });
+    $('.next').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      centerMode: true,
+      focusOnSelect: true
+    });
+    });
+    </script>
