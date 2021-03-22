@@ -14,7 +14,7 @@ https://kenwheeler.github.io/slick/
 
 <img width="1440" alt="folder-1" src="https://user-images.githubusercontent.com/69960076/111946273-831e1a80-8b1e-11eb-930c-995f9880a3b5.png">
 
-次に,htmlファイルとcssファイルを変更していきます。
+次に、htmlファイルとcssファイルを変更していきます。
 
 ```html
 <html>
@@ -82,9 +82,9 @@ https://kenwheeler.github.io/slick/
     opacity :  1;
   }
 </style>
+```
 
-
-lickの設定は完了です。ヘッダーの中で、先程ダウンロードしたslickフォルダの中のCSSコードとリンクさせ、bodyタグの直前で、jQueryを読み込み、JSコードとリンクさせています。
+これでslickの設定は完了です。ヘッダーの中で、先程ダウンロードしたslickフォルダの中のCSSコードとリンクさせ、bodyタグの直前で、jQueryを読み込み、JSコードとリンクさせています。
 
 スライダーに画像を使う場合はimgタグを並べ、その他の場合はdivタグなどを並べ、任意のクラスを指定した箱を作ります。(sectionでなくても構いません)
 
@@ -131,3 +131,14 @@ $('.next').slick({
 | infinite : true/false   | 最後のスライドの次に最初のスライドを表示する/最後のスライダーでスライドを止める | 
 | fade : true/false       | スライドのフェード表示                                                          | 
 | centerMode : true/false | 前後のスライドの表示                                                            | 
+
+先ほどのJSコードで作成したスライダーは次のようなものになります。
+
+<section class="next slider">
+<div><img src="/img/hr/sample1.png"></div>
+<div><img src="/img/hr/sample2.png"></div>
+<div><img src="/img/hr/sample3.png"></div>
+<div><img src="/img/hr/sample4.png"></div>
+<div><img src="/img/hr/sample5.png"></div>
+<div><img src="/img/hr/sample6.png"></div>
+</section>
