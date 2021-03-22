@@ -46,12 +46,14 @@ $('.next').slick({
 
 また、スライダーの主な設定項目は以下のようになっています。
 
-dots : true/false	ドットのナビを表示/非表示
-slidesToShow : 1	表示スライド数
-autoplay : true/false	スライドの自動再生
-autoplaySpeed : 2000	自動再生の速さ(ms)
-arrows : true/false	矢印のナビを表示/非表示
-speed : 300	スライドの速さ(ms)
-infinite : true/false	最後のスライドの次に最初のスライドを表示する/最後のスライダーでスライドを止める
-fade : true/false	スライドのフェード表示
-centerMode : true/false	前後のスライドの表示
+| JSコード                | 設定項目                                                                        | 
+| ----------------------- | ------------------------------------------------------------------------------- | 
+| dots : true/false       | ドットのナビを表示/非表示                                                       | 
+| slidesToShow : 1        | 表示スライド数                                                                  | 
+| autoplay : true/false   | スライドの自動再生                                                              | 
+| autoplaySpeed : 2000    | 自動再生の速さ(ms)                                                              | 
+| arrows : true/false     | 矢印のナビを表示/非表示                                                         | 
+| speed : 300             | スライドの速さ(ms)                                                              | 
+| infinite : true/false   | 最後のスライドの次に最初のスライドを表示する/最後のスライダーでスライドを止める | 
+| fade : true/false       | スライドのフェード表示                                                          | 
+| centerMode : true/false | 前後のスライドの表示                                                            | 
