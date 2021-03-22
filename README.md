@@ -135,10 +135,10 @@ $('.next').slick({
 先ほどのJSコードで作成したスライダーは次のようなものになります。
 
 <section class="next slider">
-<div><img src="/img/hr/sample1.png"></div>
-<div><img src="/img/hr/sample2.png"></div>
-<div><img src="/img/hr/sample3.png"></div>
-<div><img src="/img/hr/sample4.png"></div>
-<div><img src="/img/hr/sample5.png"></div>
-<div><img src="/img/hr/sample6.png"></div>
+<div><img src="./images/sample1.png"></div>
+<div><img src="./images/sample2.png"></div>
+<div><img src="./images/sample3.png"></div>
+<div><img src="./images/sample4.png"></div>
+<div><img src="./images/sample5.png"></div>
+<div><img src="./images/sample6.png"></div>
 </section>
